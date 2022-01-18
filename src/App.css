@@ -1,0 +1,36 @@
+.main {
+    /* height: 100vh; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+}
+
+.ui.form .field {
+    margin-right: 10px !important;
+}
+
+.create__btn {
+    width: 195%;
+}
+
+.back__btn {
+    position: absolute;
+    top: 95px;
+    right: 125px;
+}
